@@ -16,7 +16,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contect">Contect</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -33,10 +33,47 @@
                     <li><a href="#about" onclick="toggleMenu()">About</a></li>
                     <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                     <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                    <li><a href="#contect" onclick="toggleMenu()">Contect</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
                 </div>
             </div>
         </nav>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./assets/profile-pic.png" alt="Jason Sze profile picture" />
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Jason Sze</h1>
+                <p class="section__text__p2"> Frontend Developer</p>
+                <div class="btn-container">
+                    <button 
+                        class="btn btn-color-2"
+                        onclick="window.open('./assets/Jason_CV 1.0.pdf')"
+                    >
+                        Download CV
+                    </button>
+                    <button 
+                        class="btn btn-color-1"
+                        onclick="location.href='./#contact'"
+                    >
+                        Contact Info
+                    </button>
+                </div>
+                <div id="social-container">
+                    <img 
+                    src="./assets/linkedin.png" 
+                    alt="My linkedin profile"
+                    class="icon" 
+                    onclick="location.href= 'https://linkedin.com'" 
+                    />  <!--改用其他social-->
+                    <img 
+                    src="./assets/github.png" 
+                    alt="My github profile"
+                    class="icon" 
+                    onclick="location.href= 'https://github.com'" 
+                    />  <!--linkup 去git ac-->
+                 </div>
+        </section>
         <script src="script.js"></script>
     </body>
 
